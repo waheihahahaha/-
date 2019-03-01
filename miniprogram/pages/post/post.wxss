@@ -1,0 +1,58 @@
+.slide-show{
+  width: 100%;
+  /* height: 400rex; */
+}
+
+.slide-show image{
+  width: 100%;
+  height: 100%
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+
+.head-avatar {
+  width: 80%;
+  height: 3.5rem;
+  line-height: 3rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.head-avatar-img {
+  border-radius: 100%;
+  overflow: hidden;
+  margin-top: 0rem;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.user-name {
+    width:30%;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.user-name-text {
+  width: 70%;
+  justify-content: center;
+  margin-right: 5%;
+  text-align: right
+}
+
+.bg-g{
+  background: #E6F3F9;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}

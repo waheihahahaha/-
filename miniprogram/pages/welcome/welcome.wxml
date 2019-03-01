@@ -1,0 +1,12 @@
+<view class='container'>
+  <!-- <open-data class='user-image' type='userAvatarUrl'></open-data> -->
+  <image src='/images/1.jpg' class='user-image'></image>
+  <view class='user-welcome'>
+    <text class='welcome-text-show'>Welcome</text>
+    <view class='welcome-name-show'><open-data type='userNickName'></open-data></view>
+    <!-- <open-data class="td-text" type='userNickName'></open-data> -->
+  </view>
+  <view class='user-info' bindtap='showInfo'>
+    <text class='info'>个人信息展示</text>
+  </view>
+</view>

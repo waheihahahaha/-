@@ -1,0 +1,40 @@
+<view>
+  <swiper class='slide-show' indicator-dots='true' autoplay='true' interval='2000'>
+    <swiper-item><image src='/images/2.jpg'></image></swiper-item>
+    <swiper-item><image src='/images/3.jpg'></image></swiper-item>
+    <swiper-item><image src='/images/4.jpg'></image></swiper-item>
+    <swiper-item><image src='/images/5.jpg'></image></swiper-item>
+    <swiper-item><image src='/images/6.jpg'></image></swiper-item>
+  </swiper>
+
+  <view>
+    <view class='tr'>
+      <view class='head-avatar'>头像</view>
+      <open-data class='head-avatar-img' type='userAvatarUrl'></open-data>
+    </view>
+    <view class='tr'>
+      <view class="user-name">名字</view>
+      <open-data class="user-name-text" type='userNickName'></open-data>
+    </view>
+    <button class='bg-g' wx:if='{{canIUse}}' lang='zh_CN' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>展开</button>
+  </view>
+
+    <block wx:if='{{tableDataShow}}'>
+    <view class='tr'>
+      <view class='user-name'>地区</view>
+      <view class='user-name-text'>{{city}}</view>
+    </view>
+    <view class='tr'>
+      <view class='user-name'>省份</view>
+      <view class='user-name-text'>{{province}}</view>
+    </view>
+    <view class='tr'>
+      <view class='user-name'>国家</view>
+      <view class='user-name-text'>{{country}}</view>
+    </view>
+    <view class='tr'>
+      <view class='user-name'>性别</view>
+      <view class='user-name-text'>{{sex}}</view>
+    </view>
+  </block>
+</view>
